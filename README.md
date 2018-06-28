@@ -9,16 +9,17 @@ The Dishonest Casino. A casino has two dices:
   P(1) = P(2) = P(3) = P(4) = P(5) = 0.1
   P(6) = 0.5
 Casino player switches back & forth between fair and loaded die with the following probability :
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-> Follow your heart.
+
+![](https://github.com/bencoz/HMM-Simulation/blob/master/hmm_pic_1.jpg)
+> state diagram.
 
 ### 3 C Programs :
 - simulate.c : Simulate a casino day (300) tosses and produce 2 txt files :
   - TOSS_OUT.txt -  the tosses result in that day (i.e 66234666324515666..)
   - CUBES_OUT.txt - the cube use in that toss (F/U)
-- hmm.c : Implemention of the foward-backward algorithm. recives TOSS_OUT.txt and give a state probability (F/U) for each toss.
-  - produces HMM_OUT.txt with a guess for each toss in which state it was.
-- analysis.c - Recives 2 files (CUBES_OUT.txt & HMM_OUT.txt) and analyses them. produce 2 txt files :
+- hmm.c : Implemention of the foward-backward algorithm. Recives TOSS_OUT.txt and give a state probability (F/U) for each toss. Produces :
+  -HMM_OUT.txt - with a guess for each toss in which state it was.
+- analysis.c - Recives 2 files (CUBES_OUT.txt & HMM_OUT.txt) and analyses them. Produce 2 txt files :
   - COMPARE.txt - 3 rows file :
     -1st row is the (real) CUBES_OUT.txt
     -2nd is '+' or ' ' if the algorithm was right.
