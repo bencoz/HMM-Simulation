@@ -4,10 +4,10 @@ Project in "Algorithm in molecular biology"
 ## Information:
 The Dishonest Casino. A casino has two dices:
 - Fair dice
-  P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = 1/6
+  - P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = 1/6
 - Loaded dice
-  P(1) = P(2) = P(3) = P(4) = P(5) = 0.1
-  P(6) = 0.5
+  - P(1) = P(2) = P(3) = P(4) = P(5) = 0.1
+  - P(6) = 0.5
   
 Casino player switches back & forth between fair and loaded die with the following probability :
 
