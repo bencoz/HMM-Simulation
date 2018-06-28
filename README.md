@@ -8,6 +8,7 @@ The Dishonest Casino. A casino has two dices:
 - Loaded dice
   P(1) = P(2) = P(3) = P(4) = P(5) = 0.1
   P(6) = 0.5
+  
 Casino player switches back & forth between fair and loaded die with the following probability :
 
 ![](https://github.com/bencoz/HMM-Simulation/blob/master/hmm_pic_1.jpg)
